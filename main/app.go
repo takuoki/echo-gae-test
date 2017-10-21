@@ -1,11 +1,11 @@
-// +build !appengine
-
 package main
 
 import (
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 )
+
+var e = createMux()
 
 func createMux() *echo.Echo {
 	e := echo.New()
