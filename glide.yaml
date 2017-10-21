@@ -1,0 +1,6 @@
+package: github.com/takuoki/echo-gae-test
+import:
+- package: github.com/labstack/echo
+  version: ^3.2.3
+  subpackages:
+  - middleware
